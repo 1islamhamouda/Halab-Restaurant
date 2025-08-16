@@ -64,7 +64,7 @@ export default function Footer() {
               <div className="w-32 h-32 bg-gray-200 rounded-lg flex items-center justify-center">
                 <span className="text-gray-500 text-sm text-center">
                   QR Code<br/>
-                  سيتم إضافته هنا
+                  <img src="/imagesHalab/halab_qr.png" alt="QR Code" className="w-24 h-24" />
                 </span>
               </div>
             </div>

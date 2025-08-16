@@ -43,8 +43,8 @@ export default function Nav() {
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex items-center space-x-8 space-x-reverse me-10">
-            <Link to="/" className={`font-semibold transition-colors duration-300 hover:text-gold ${
+          <div className="hidden md:flex items-center space-x-8 space-x-reverse ">
+            <Link to="/" className={`font-semibold transition-colors duration-300 hover:text-gold me-10 ${
               isScrolled ? 'text-white' : 'text-white'
             }`}>
               الرئيسية
